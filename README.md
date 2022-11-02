@@ -1,1 +1,1 @@
-# AtinArts
+# AtinArt
