@@ -1,0 +1,169 @@
+/* ESTÁ TODO ROTO PORQUE TUVE QUE FUSIONAR ARCHIVOS Y NO TENGO TIEMPO DE CORREGIRLO RN, SORRY :) */
+/* YA TERMINO DE RENDIR MIS EXÁMENES, AWÁNTEME UN POKITO */
+
+
+
+/* RESET */
+
+* {
+    Margin:0;
+    padding:0;
+    text-decoration: none;
+    color: #000000;
+    box-sizing: border-box;
+    }
+
+/* FIN RESET */
+
+
+* {
+	color: white;
+	background-color: rgb(133, 22, 86);
+}
+
+@font-face {
+	font-family: YaquoteScript;
+	src: url(/assets/YaquoteScript.ttf);
+}
+
+/* HEADER */
+/*/*NAV*/
+
+#encabezado nav{
+	border: 5px solid pink;
+}
+
+#encabezado li{
+	display:inline-flex;
+}
+
+#encabezado ul{
+	list-style-type: none;
+}
+
+.encabezado_botones{
+	background-color: pink;
+	padding: 20px;
+	display:inline-flex;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: whitesmoke;
+}
+
+/* FIN HEADER */
+
+/* CUERPO */
+
+.index_entradas article{
+	border-left: 2px dotted pink;
+	border-right: 2px dotted pink;
+	margin: 20px;
+}
+
+.index_entradas h2{
+	padding-left:20px;
+	background-color: pink;
+	font-family: YaquoteScript;
+	font-size: 50px;
+}
+
+.index_entradas section{
+	padding-left:20px;
+	display:inline-flex;
+	border: 2px dotted whitesmoke;
+}
+
+.index_entradas p{
+	padding-left:20px;
+}
+
+.index_entradas h5{
+	padding-left: 30px;
+}
+
+.index_lateral aside{
+	border-left: 2px dotted pink;
+	border-right: 2px dotted pink;
+	margin: 20px;
+	padding-inline: 70% 5%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	font-weight: 300;
+	text-align: center;
+	text-align: justify;
+}
+
+.index_img{
+	padding-left: 30px;
+}
+
+/* PIE */
+
+#pie footer{
+	border: 5px solid pink;
+	padding: 5px;
+}
+
+#pie h4{
+	padding-left: 30px;
+}
+
+.pie_botones{
+	background-color: pink;
+	padding: 20px;
+	display:inline-flex;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: whitesmoke;
+}
+
+
+
+/* ESTILO PAGINA 2: presentacion
+
+* {
+	color: white;
+	background-color: rgb(133, 22, 86);
+}
+
+@font-face {
+	font-family: YaquoteScript;
+	src: url(YaquoteScript.ttf);
+}
+
+nav{
+	border: 5px solid pink;
+}
+
+li{
+	display:inline-flex;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.img{
+	padding-left: 30px;
+}
+
+h3{font-family: YaquoteScript;
+font-size: 50px;}
+
+main{
+    border-left: 2px dotted pink;
+	border-right: 2px dotted pink;
+	margin: 20px;
+	padding-inline: 20%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	font-weight: 300;
+	text-align: center;
+	text-align: justify;
+}
+
+.botones{
+    background-color: pink;
+	padding: 20px;
+	display:inline-flex;
+} */
