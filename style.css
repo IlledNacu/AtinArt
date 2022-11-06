@@ -33,6 +33,10 @@
 	border: 5px solid pink;
 }
 
+#encabezado h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #encabezado li{
 	display:inline-flex;
 }
@@ -52,12 +56,17 @@
 
 /* FIN HEADER */
 
-/* CUERPO */
+/* CUERPO INDEX */
 
 .index_entradas article{
 	border-left: 2px dotted pink;
 	border-right: 2px dotted pink;
 	margin: 20px;
+}
+
+.index_grid{
+	display: grid;
+	grid-template-columns: 400px 400px;
 }
 
 .index_entradas h2{
@@ -81,11 +90,17 @@
 	padding-left: 30px;
 }
 
-.index_lateral aside{
-	border-left: 2px dotted pink;
+.index_img{
+	padding-left: 30px;
+}
+
+
+
+.presentacion main{
+    border-left: 2px dotted pink;
 	border-right: 2px dotted pink;
 	margin: 20px;
-	padding-inline: 70% 5%;
+	padding-inline: 20%;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: medium;
 	font-weight: 300;
@@ -93,9 +108,24 @@
 	text-align: justify;
 }
 
-.index_img{
+.presentacion h3{
+	font-family: YaquoteScript;
+	font-size: 50px;
+	padding-left:20px;
+	background-color: pink;
+}
+
+.presentacion_grid{
+	display: grid;
+	grid-template-columns: 400px 400px;
+	place-content: center;
+}
+
+.presentacion_img{
 	padding-left: 30px;
 }
+
+
 
 /* PIE */
 
@@ -116,54 +146,3 @@
 	font-weight: 600;
 	color: whitesmoke;
 }
-
-
-
-/* ESTILO PAGINA 2: presentacion
-
-* {
-	color: white;
-	background-color: rgb(133, 22, 86);
-}
-
-@font-face {
-	font-family: YaquoteScript;
-	src: url(YaquoteScript.ttf);
-}
-
-nav{
-	border: 5px solid pink;
-}
-
-li{
-	display:inline-flex;
-}
-
-ul{
-	list-style-type: none;
-}
-
-.img{
-	padding-left: 30px;
-}
-
-h3{font-family: YaquoteScript;
-font-size: 50px;}
-
-main{
-    border-left: 2px dotted pink;
-	border-right: 2px dotted pink;
-	margin: 20px;
-	padding-inline: 20%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: medium;
-	font-weight: 300;
-	text-align: center;
-	text-align: justify;
-}
-
-.botones{
-    background-color: pink;
-	padding: 20px;
-	display:inline-flex;
-} */
